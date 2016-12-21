@@ -4,9 +4,44 @@
 	<title>Autographs test</title>
 	<meta charset="utf-8" />
 	<!--mobile scale-->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 <body>
-	<div id="autographArea">Loading...</div>
+	<h1 style="text-align: center;">Autograph Schedules</h1>
+	<p>Click a guest to view their autograph schedule!</p>
+	<div id="autographArea">Loading... (Note: It shouldn't actually take this long to load on the real site)</div>
+	<style type="text/css">
+	* {
+		font-family: "Open Sans";
+		color: rgb(68, 68, 68);
+	}
+	#autographArea {
+		text-align: center;
+		padding: 0 2em;
+	}
+	.autograph-guest {
+		width: 350px;
+		height: 350px;
+		display: inline-block;
+		margin: 20px;
+		cursor: pointer;
+		text-align: center;
+	}
+	.autograph-guest-img > img {
+		width: 100%;
+		border-radius: 7px;
+	}
+	.autograph-guest-name {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	.autograph-schedule {
+		display: none;
+	}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="autographs.js"></script>
 </body>
 </html>
