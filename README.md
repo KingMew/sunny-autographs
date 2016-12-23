@@ -7,6 +7,7 @@ Script for moderately-sized Japan
 
 ## Copyright
 
+<pre>
 Copyright © 2016 TAIYOU CON <info@taiyoucon.com>
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
@@ -17,3 +18,4 @@ the extent permitted by applicable law. You can redistribute it
 and/or modify it under the terms of the Do What The Fuck You Want
 To Public License, Version 2, as published by Sam Hocevar. See
 http://www.wtfpl.net/ for more details.
+</pre>
